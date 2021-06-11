@@ -308,7 +308,7 @@ function removeArtist(array, element)
   return array.length;
 }
    
-/* Push when complete */
+/* Push completed */
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 
