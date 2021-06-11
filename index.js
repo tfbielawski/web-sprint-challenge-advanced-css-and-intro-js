@@ -215,18 +215,23 @@ Practice accessing data above by console.log-ing following items:
 (no functions needed) */
 
 //(1) Name of the first artist (0th index) in the array
+//Access artists array by index [0]
 console.log(artists[0].name);
 
 //(2) Bio of the third artist (2nd index) in the array 
+//Access artists array by index [2]
 console.log(artists[2].bio);
 
-/* Push when complete */
+/* Push completed. */
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
 
+//Access artists by element 8, assign new value
+artists[8].name = "Vincent Van Gogh";
 
+/* Push when complete */
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
  Use getArtistByIndex to do the following:
