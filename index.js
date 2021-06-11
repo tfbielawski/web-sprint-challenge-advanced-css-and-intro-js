@@ -220,6 +220,7 @@ Practice accessing data above by console.log-ing following items:
 //(2) Bio of the third artist (2nd index) in the array 
 
 
+/* Push when complete */
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 (no function needed) 
@@ -240,6 +241,7 @@ function getArtistByIndex(/*Your Code Here*/) {
 }  
 
 
+/* Push when complete */
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use get20s to do the following: 
@@ -254,6 +256,7 @@ function get20s(/*Your Code Here*/){
 }
 
 
+/* Push when complete */
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
  Use removeArtist to do the following:
@@ -268,6 +271,7 @@ function removeArtist(/*Your Code Here*/){
    /*Your Code Here*/
 }
    
+/* Push when complete */
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use addArtist to do the following: 
@@ -290,6 +294,7 @@ function addArtist(/*Your Code Here*/){
   }
 
   
+/* Push when complete */
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
@@ -303,7 +308,7 @@ function lotsOfArt(/*Your Code Here*/){
 }
 
 
-
+/* Push when complete */
 
 // 🎨🎨 STRETCH 🎨🎨//
 /* 💪💪💪💪💪💪 STRETCH 1: 💪💪💪💪💪💪 
