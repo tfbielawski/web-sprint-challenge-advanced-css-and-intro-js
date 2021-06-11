@@ -355,6 +355,7 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
+//Declare an empty array
 let thisArray = [];
 //Define the function, pass in array
 function lotsOfArt(array)
