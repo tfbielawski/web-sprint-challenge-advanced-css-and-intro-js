@@ -262,22 +262,22 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
 //Declare new empty array
-let newArray = []
-//Define the funtion, pass in array
+let newArray = [];
+//Define the function, pass in array
 function get20s(array)
 {
-    //For loop to search the array
-    for (let i = 0; i < array.length; i++)
+  //For loop to search the array
+  for (let i = 0; i < array.length; i++)
+  {
+    //If the array at element [i] is >= 1900 & <= 2000
+    if (array[i].years >= "1900" && array[i].years <= "2000")
     {
-        //If the array at element [i] is >= 1900 & <= 2000
-        if (array[i].years >= "1900" && array[i].years <= "2000")
-        {
-            //Push the element into the new array
-            newArray.push(array[i].name)
-        }
+      //Push the element into the new array
+      newArray.push(array[i].name);
     }
-    //Return the new array
-    return newArray
+  }
+  //Return the new array
+  return newArray;
 }
 
 
@@ -292,8 +292,20 @@ function get20s(array)
  
  For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-function removeArtist(/*Your Code Here*/){
-   /*Your Code Here*/
+function removeArtist(array, element)
+{
+   //For loop to search the array
+  for (let i = 0; i < array.length; i++)
+  {
+    //If the array at element [i] is >= 1900 & <= 2000
+    if (array[i] == array[element])
+    {
+      //splice() the artist at the element
+      array.splice(element, 1);
+    }
+  }
+  //Return the new array
+  return array.length;
 }
    
 /* Push when complete */
