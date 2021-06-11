@@ -1,3 +1,10 @@
+/*  Tom Bielawski
+*   Lambda School Web45
+*   Unit 2, Module 4 Sprint Challenge 
+*   index.js
+*   06/11/2021  */
+
+
 export const artists = [
     {
       "id": 0,
