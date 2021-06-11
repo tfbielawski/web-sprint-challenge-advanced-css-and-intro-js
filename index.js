@@ -248,7 +248,6 @@ function getArtistByIndex(array, element)
   const artistInfo = array[element];
   //Return the desired information
   return `the artist at index ${artistInfo.id} is ${artistInfo.name}`;
-
 }  
 
 
