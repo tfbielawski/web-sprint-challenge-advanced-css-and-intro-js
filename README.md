@@ -22,9 +22,22 @@ Commit your code regularly and meaningfully.
 
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
-1. How would you describe acessibility on the web to someone new to programming?
+1. How would you describe accessibility on the web to someone new to programming?
+Accessibility refers to design that accounts for people with impairments who may be using certain technologies to assist them with viewing web pages. 
+
 2. Talk about 3 different things you can do to ensure your website is accessible. 
+Developers can do many things to ensure websites are accessible. Among them are: ensuring you use semantic tags (like header, footer, article, main, etc), which impart specific meaning to accessibility viewing/reading devices; be mindful when using non-semantic tags (like div and span) because they do not convey any meaning; use alt tags where possible to provide better descriptions; be mindful when using tables as they are difficult for accessibility technologies to follow.
+
 3. How would you explain the concept of a variable to someone new to programming?
+A variable is an empty container, which has no value until you give it a value. Variables should have descriptive names that are useful in imparting their meaning when read by others, and their names should be relevant to the project and code. 
+
+We have to tell the computer that we want to use a variable, and tell it what we we want to call it. 
+
+A variable can be something as simple as "x," and that x can represent a number that the developer gives it. It can hold a word ("Mountains"), it can hold a number (2021), etc. Yet, the x tells us nothing about the word or number it contains.
+
+If your program calculates a dinner bill, use variables that represent the factors in that calculation. For example: totalBill should represent the total of the bill before addingg tax and tp; salesTax should represent the percent sales tax to be calculated; subtotalBeforeTip should represent the total amount before tip is added; tipAmount should represent percent tip to be calculated; finalBill should represent the final amount with all calculations added.
+
+
 4. What is the purpose of using functions in code?
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
