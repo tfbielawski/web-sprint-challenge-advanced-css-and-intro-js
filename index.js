@@ -231,7 +231,7 @@ There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is current
 //Access artists by element 8, assign new value
 artists[8].name = "Vincent Van Gogh";
 
-/* Push when complete */
+/* Push completed. */
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀  
  Use getArtistByIndex to do the following:
