@@ -241,8 +241,14 @@ artists[8].name = "Vincent Van Gogh";
  
  Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
-function getArtistByIndex(/*Your Code Here*/) {
-  /*Your Code Here*/
+ //Define the function, pass in array and element
+function getArtistByIndex(array, element) 
+{
+  //Variable to hol the element number passed in
+  const artistInfo = array[element];
+  //Return the desired information
+  return `the artist at index ${artistInfo.id} is ${artistInfoname}';
+ 
 }  
 
 
