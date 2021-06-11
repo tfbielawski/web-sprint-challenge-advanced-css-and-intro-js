@@ -70,20 +70,27 @@ img:hover {
 }	
 
 /*HEADER STYLES */
-header{
+header
+{
     display:flex;
     justify-content: center;
 }
-nav{
+
+nav
+{
     width:30%;
     display:flex;
     justify-content:space-evenly;
     margin-top:5%;
 }
-nav a{
+
+nav a
+{
     color:#626262;
 }
-nav span{
+
+nav span
+{
     border-left:3px solid #626262;
 
 }
@@ -159,6 +166,41 @@ button:hover
 /*** Media Breakpoints ***/
 @media(max-width: 500px)
 {
+   
+    h1 
+    {
+        font-size: 4rem;
+    }
+    
+    /* nav
+    {
+        width:30%;
+        display:flex;
+        justify-content:space-evenly;
+        margin-top:5%;
+    } */
+
+    /* Title container */
+    .title-container div 
+    {	
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg/1920px-John_Martin_-_The_Plains_of_Heaven_-_Google_Art_Project.jpg');		
+        background-position: center;	
+        color: white;	
+        width:80%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height:30vh;
+        margin:5% 0;
+    }
+    .title-container hr
+    {
+        max-width: 100%;
+    }
+    
+    /* Main image */
+
     /* Artist container stacked in column */
     .artists-container
     {
@@ -169,12 +211,16 @@ button:hover
         margin:0 auto;
     }
 
+    /* Adjust the images in the artist class 
+    to match the example*/
     .artist img 
     {
         width:65%;
         height: 50%;
     }
 
+    /* Adjust the text size and alignment to match
+    the example*/
     .artist
     {
         text-align: center;
