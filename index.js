@@ -337,13 +337,12 @@ function addArtist(array)
     years: 1974,
     genre: "Web Design",
     nationality: "American",
-     bio: "Veteran United States Marines. Law enforcement officer for 20 years. Small business owner. AS " +
+    bio: "Veteran United States Marines. Law enforcement officer for 20 years. Small business owner. AS " +
             "in computer science from Florida State College Jacksonville.",
   } );
   //Return array
   return array;
 }
-
   
 /* Push completed */
 
@@ -354,7 +353,22 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(){}
+//Define the function, pass in array
+function lotsOfArt(array)
+{
+  let newArray = [];
+  //For loop to search array
+  for (let i = 0; i < array.length; i++)
+  {
+    //if the element[i] paintings are > 100
+    if (array[i].paintings > 100)
+    {
+      //Push to new array
+      newArray.push(array[i].name);
+    }
+  }
+  return array;
+}
 
 /* Push when complete */
 
