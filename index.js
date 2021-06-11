@@ -374,7 +374,7 @@ function lotsOfArt(array)
   return thisArray;
 }
 
-/* Push when complete */
+/* Push completed */
 
 // 🎨🎨 STRETCH 🎨🎨//
 /* 💪💪💪💪💪💪 STRETCH 1: 💪💪💪💪💪💪 
