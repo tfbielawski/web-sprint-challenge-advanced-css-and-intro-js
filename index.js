@@ -247,12 +247,12 @@ function getArtistByIndex(array, element)
   //Variable to hol the element number passed in
   const artistInfo = array[element];
   //Return the desired information
-  return `the artist at index ${artistInfo.id} is ${artistInfoname}';
- 
+  return `the artist at index ${artistInfo.id} is ${artistInfo.name}`;
+
 }  
 
 
-/* Push when complete */
+/* Push completed */
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Use get20s to do the following: 
