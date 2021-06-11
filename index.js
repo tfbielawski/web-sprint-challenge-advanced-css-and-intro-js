@@ -326,12 +326,26 @@ Use addArtist to do the following:
 
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
-function addArtist(/*Your Code Here*/){
-    /*Your Code Here*/
-  }
+//Define the function, pass in array
+function addArtist(array)
+{
+  //push new info to array
+  artists.push(
+  {
+    id: 20,
+    name: "Thomas Bielawski",
+    years: 1974,
+    genre: "Web Design",
+    nationality: "American",
+     bio: "Veteran United States Marines. Law enforcement officer for 20 years. Small business owner. AS " +
+            "in computer science from Florida State College Jacksonville.",
+  } );
+  //Return array
+  return array;
+}
 
   
-/* Push when complete */
+/* Push completed */
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Use lotsOfArt to do the following: 
@@ -340,10 +354,7 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(/*Your Code Here*/){
-  /*Your Code Here*/
-}
-
+function lotsOfArt(){}
 
 /* Push when complete */
 
