@@ -261,11 +261,13 @@ Use get20s to do the following:
 Example born in 1901 and died in 1959 - included -- born in 1889 and died in 1925 not included
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
-//Declare new empty array
-let newArray = [];
+
 //Define the function, pass in array
 function get20s(array)
 {
+  //Declare new empty array
+  let newArray = [];
+
   //For loop to search the array
   for (let i = 0; i < array.length; i++)
   {
@@ -281,7 +283,7 @@ function get20s(array)
 }
 
 
-/* Push when complete */
+/* Push completed */
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
  Use removeArtist to do the following:
@@ -353,21 +355,23 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
+let thisArray = [];
 //Define the function, pass in array
 function lotsOfArt(array)
 {
-  let newArray = [];
+  
   //For loop to search array
   for (let i = 0; i < array.length; i++)
   {
     //if the element[i] paintings are > 100
     if (array[i].paintings > 100)
     {
-      //Push to new array
-      newArray.push(array[i].name);
+      //Push the names only to the new array
+      thisArray.push(array[i].name);
     }
   }
-  return array;
+  //Return the desired information
+  return thisArray;
 }
 
 /* Push when complete */
